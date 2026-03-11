@@ -25,6 +25,6 @@ app.use((req, res, next) => {
 });
 
 //Routes
-app.use("/user", userRouter);
+app.use("/api/users", userRouter);
 
 app.listen(PORT, () => console.log(`Server Started at PORT:${PORT}`));
